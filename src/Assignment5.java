@@ -11,7 +11,7 @@ public class Assignment5 {
 		driver.get("https://the-internet.herokuapp.com/nested_frames");
 		Thread.sleep(4000L);
 		
-		System.out.println(driver.findElements(By.tagName("frame")).size());
+		//System.out.println(driver.findElements(By.tagName("frame")).size());
 		
 		driver.switchTo().frame(0);//SWITCH TO TOP FRAME
 		//SWITCHING FRAME WITHIN FRAME
