@@ -7,6 +7,7 @@ public class HandelingHTTPSCertifications {
 
 	public static void main(String[] args) 
 	{
+		
 		DesiredCapabilities ch = DesiredCapabilities.chrome();
 		ch.acceptInsecureCerts();
 		
